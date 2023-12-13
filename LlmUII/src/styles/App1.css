@@ -1,0 +1,227 @@
+/* General Styles */
+.navbar {
+  margin-bottom: 20px;
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+.logo2 {
+  width: 100px;
+  height: auto;
+}
+.navbarDropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navbarDropdown:hover .dropdown-content {
+  display: block;
+}
+
+iframe {
+  display: none;
+}
+
+.dropdown-item {
+  color: #212529;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+.nav-item {
+  margin: 0;
+  padding: 0.3rem 0.7rem;
+  padding-top: 0.1rem; /* Decrease this value to reduce height */
+  padding-bottom: 0.1rem; /* Decrease this value to reduce height */
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  overflow-y: scroll;
+}
+
+.row {
+  min-height: 100%;
+}
+
+.nav-link {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Visualization Menu Item */
+.nav-item .nav-link[aria-current="page"],
+.nav-item:hover .nav-link {
+  font-weight: 600;
+  border-bottom: 3px solid #007bff;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  padding-top: 0.1rem; /* Decrease this value to reduce height */
+  padding-bottom: 0.1rem; /* Decrease this value to reduce height */
+}
+
+/* Submenu under Visualization */
+.nav-item ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0;
+  padding: 0.3rem 0.7rem;
+}
+
+.nav-item ul .nav-link {
+  font-size: 0.5rem;
+  color: #777;
+}
+
+.nav-item ul .nav-link:hover {
+  color: #555;
+}
+.app-container,
+.container-fluid {
+  height: 100vh;
+}
+
+.col-12 {
+  height: 100vh;
+}
+
+/* App1.css (or whatever your main CSS file is named) */
+
+/* Reduce spacing between menu items */
+.nav.flex-column .nav-item {
+  margin: 0;
+  /* padding: 0.5rem 0.5rem; */
+}
+
+/* Highlight the active menu item with a background color */
+.nav.flex-column .nav-link.active {
+  background-color: #e9ecef; /* light gray background */
+  color: #000; /* black text */
+  text-decoration: none;
+  border-radius: 4px; /* rounded corners for the active item */
+}
+
+/* Set the sidebar background color to gray */
+.bg-light {
+  background-color: #f5f5f5 !important; /* a gray shade for the sidebar */
+}
+
+/* Relationships.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listItem {
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.listItem:last-child {
+  border-bottom: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pageButton {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pageButton:hover {
+  background-color: #0056b3;
+}
+
+.inputField {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+.addButton {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addButton:hover {
+  background-color: #218838;
+}
+
+.container-fluid {
+  background-color: #f8f9fa;
+}
+.container-fluid,
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  padding: 20px;
+}
+
+/* main {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+/* Links & Buttons Styling */
+a,
+button {
+  color: #007bff;
+  transition: color 0.2s;
+}
+
+a:hover,
+button:hover {
+  color: #0056b3;
+  text-decoration: none;
+}

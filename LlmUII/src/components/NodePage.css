@@ -1,0 +1,114 @@
+/* Existing imports and global styles */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.workflow-builder {
+  display: flex;
+  flex-direction: column; /* Adjusted for column-based layout */
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to bottom right, #6a82fb, #fc5c7d);
+  color: white;
+}
+
+.workflow-header {
+  width: 100%;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex; /* Adjusted to make it consistent with the flex design */
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="text"],
+button {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  margin-left: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  color: #6a82fb;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+/* Main content styles */
+.workflow-content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.workflow-sidebar {
+  padding: 1rem;
+  width: 15%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.workflow-node {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.workflow-node:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.workflow-canvas {
+  width: 60%; /* Or whatever fixed size you prefer */
+  height: 80%; /* Adjust as necessary */
+  padding: 2rem;
+  position: relative;
+  background: #4a578d; /* A slightly darker shade for distinction, adjust as necessary */
+}
+
+.workflow-canvas.dragging-over {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.node-configuration {
+  flex: 1; /* Adjusted to take remaining space */
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Configuration styles if you have any other specific styles for CSV upload or scripting node config, add them here */
+
+.csv-upload-config,
+.scripting-node-config {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  margin-left: 1rem;
+  border-radius: 4px;
+}
+
+input[type="file"],
+textarea {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+input[type="radio"] {
+  margin-right: 0.5rem;
+}

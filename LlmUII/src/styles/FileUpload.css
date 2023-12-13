@@ -1,0 +1,14 @@
+/* FileUpload.css */
+.dropzone {
+  border: 2px dashed #007bff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: border 0.24s ease-in-out;
+}
+
+.dropzone:hover {
+  border-color: #0056b3;
+}

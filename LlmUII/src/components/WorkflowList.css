@@ -1,0 +1,32 @@
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Light Variation Gradient */
+.appBackground {
+  background: linear-gradient(to bottom right, #a3aefc, #fd9db0);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Workflow List Styles */
+h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.TableContainer {
+  margin-top: 1rem;
+}
+
+.TableCell {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.Button {
+  margin-right: 0.5rem;
+}
