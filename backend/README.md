@@ -15,7 +15,7 @@ You can have an overview of our Spring Boot Server with the diagram below:
 
 ![spring-boot-mongodb-jwt-authentication-spring-security-architecture](spring-boot-mongodb-jwt-authentication-spring-security-architecture.png)
 
-For more detail, please visit:
+For more detail,d please visit:
 > [Spring Boot, MongoDB: JWT Authentication with Spring Security](https://bezkoder.com/spring-boot-jwt-auth-mongodb/)
 
 Working with Front-end:
