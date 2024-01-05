@@ -4,7 +4,7 @@ from langchain.chains import GraphCypherQAChain
 from langchain.graphs import Neo4jGraph
 import os
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = ""
 
 graph = Neo4jGraph(
     url="bolt://localhost:7687",
